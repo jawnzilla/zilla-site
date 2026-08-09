@@ -14,13 +14,15 @@ A standalone interactive ASCII signal site.
 
 ## Run locally
 
-This is a zero-dependency static site.
+This is a zero-dependency static site. The repo includes a small server that binds only to localhost:
 
 ```bash
-npx serve .
+node server.js
 ```
 
-Or use any static HTTP server pointed at this directory.
+Then open `http://127.0.0.1:8787/`.
+
+You can also use any static HTTP server pointed at this directory.
 
 ## Project structure
 
