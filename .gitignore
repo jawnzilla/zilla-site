@@ -1,0 +1,5 @@
+# Local development artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
